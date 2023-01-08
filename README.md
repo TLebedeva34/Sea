@@ -1,2 +1,2 @@
-# Sea
-Modul_C2
+# Sea_Lebedeva
+Module_C2
