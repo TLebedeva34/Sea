@@ -259,3 +259,10 @@ class Game:
 
 g = Game()
 g.start()
+
+
+
+class Change:
+    def __str__(self):
+        return Изменения
+
