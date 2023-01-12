@@ -73,7 +73,7 @@ class Board:
 
         if self.hid:
             res = res.replace("■", "0")
-            return res
+        return res
 
     def out(self, d):
         return not ((0 <= d.x < self.size) and (0 <= d.y < self.size))
@@ -260,9 +260,4 @@ class Game:
 g = Game()
 g.start()
 
-
-
-class Change:
-    def __str__(self):
-        return Изменения
 
